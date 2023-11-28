@@ -16,7 +16,7 @@
             <div class="logo">
                 <img class="w-16" src="https://cdn-icons-png.flaticon.com/128/5968/5968204.png" alt="Stripe Logo">
             </div>
-            <div class="hidden  bg-white  w-full md:flex items-center px-5">
+            <div class="primary_nav hidden  bg-white  w-full md:flex items-center px-5">
                 <ul class="flex  md:flex-row flex-col items-center md:gap-[4vw]">
                     <li><a class="hover:text-gray-500" href="#">Products</a></li>
                     <li><a class="hover:text-gray-500" href="#">Solution</a></li>
@@ -25,21 +25,22 @@
                     <li><a class="hover:text-gray-500" href="#">Pricing</a></li>
                 </ul>
             </div>
-            <div class="hidden md:block sign_in_button">
+            <div class="secondary_nav hidden md:block sign_in_button">
                 <button class="bg-[#a6c1ee] text-white px-8 py-2 rounded-2xl hover:bg-[#87acec]"
                     type="submit">Signin</button>
             </div>
 
             <!-- Mobile button here -->
-            <button type="button" class="md:hidden flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                    class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            <button type="button" class="mobile_button md:hidden flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
 
             </button>
         </nav>
-        <div class="md:hidden w-[92%] mx-auto">
+        <div class="md:hidden hidden mobile_nav w-[92%] mx-auto">
             <a class="hover:text-gray-500 block py-2" href="#">Products</a>
             <a class="hover:text-gray-500 block py-2" href="#">Solution</a>
             <a class="hover:text-gray-500 block py-2" href="#">Resource</a>
@@ -47,6 +48,8 @@
             <a class="hover:text-gray-500 block py-2" href="#">Pricing</a>
         </div>
     </header>
+
+    <script src="/index.js"></script>
 </body>
 
 </html>
