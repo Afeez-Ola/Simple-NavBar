@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 * {
     margin: 0;
@@ -55,9 +55,6 @@ header h1 {
     width: 100%;
 }
 
-/* .logo {
-    background: var(--background);
-} */
 
 nav {
     position: absolute;
@@ -66,7 +63,7 @@ nav {
     width: 100%;
     background: var(--background);
     text-align: right;
-    /* display: none; */
+    display: none;
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 150ms ease-in-out;
@@ -206,4 +203,4 @@ nav a:hover {
         transform-origin: left;
         transition: transform ease-in-out 250ms;
     }
-}
+} */
