@@ -16,15 +16,23 @@
             <div class="primary_nav">
                 <img class="w-24" src="/stripe.svg" alt="Stripe Logo">
             </div>
-            <div class="secondary_nav flex items-center gap-x-4">
+            <div class="hidden md:flex secondary_nav  items-center gap-x-4">
                 <a class="hover:text-gray-500" href="#">Products</a>
                 <a class="hover:text-gray-500" href="#">About</a>
                 <a class="hover:text-gray-500" href="#">Contact</a>
                 <a class="hover:text-gray-500" href="#">Developer</a>
             </div>
-            <div class="third_nav">
+            <div class="hidden md:flex">
                 <button class="hover:bg-fuchsia-600  text-white py-2 px-6 bg-fuchsia-400 rounded-xl"
                     type="button">Sign-In</button>
+            </div>
+
+            <div class="mobile_button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                </svg>
+
             </div>
         </nav>
     </header>
