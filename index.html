@@ -11,39 +11,41 @@
 </head>
 
 <body class="font-['Poppins'] h-screen bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
-    <header class="bg-white ">
-        <nav class=" flex w-[94%] space-x-1 items-center align-center mx-auto justify-between">
-            <div class="primary_nav">
-                <img class="w-24" src="/stripe.svg" alt="Stripe Logo">
+    <header class="bg-white">
+        <nav class="flex justify-between w-[92%] mx-auto items-center">
+            <div>
+                <img class="w-16" src="stripe.svg" alt="Stripe Logo">
             </div>
-            <div class="hidden md:flex secondary_nav  items-center gap-x-4">
-                <a class="hover:text-gray-500" href="#">Products</a>
-                <a class="hover:text-gray-500" href="#">About</a>
-                <a class="hover:text-gray-500" href="#">Contact</a>
-                <a class="hover:text-gray-500" href="#">Developer</a>
+            <div class="hidden md:flex items-center gap-x-4 justify-between">
+                <a href="#">Products</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Developer</a>
             </div>
             <div class="hidden md:flex">
-                <button class="hover:bg-fuchsia-600  text-white py-2 px-6 bg-fuchsia-400 rounded-xl"
-                    type="button">Sign-In</button>
+                <button class="text-white hover:bg-stone-400 bg-stone-600	px-4 py-2 rounded-xl"
+                    type="submit">Sign-in</button>
             </div>
 
-            <div class="mobile_button md:hidden">
+            <div class="md:hidden mobile_button">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-8 h-8">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
                 </svg>
             </div>
         </nav>
-        <div class="mobile_nav hidden bg-white ">
-            <a class="hover:text-gray-500 block px-6 py-2" href="#">Products</a>
-            <a class="hover:text-gray-500 block px-6 py-2" href="#">About</a>
-            <a class="hover:text-gray-500 block px-6 py-2" href="#">Contact</a>
-            <a class="hover:text-gray-500 block px-6 py-2" href="#">Developer</a>
-            <button class="hover:bg-fuchsia-600 mx-6 mb-2 text-left  text-white py-2 px-6 bg-fuchsia-400 rounded"
-                type="button">Sign-In</button>
-        </div>
 
+        <div class="mobile_nav hidden w-[92%] mx-auto">
+            <a class="hover:bg-stone-400 block my-1" href="#">Products</a>
+            <a class="hover:bg-stone-400 block my-1" href="#">About</a>
+            <a class="hover:bg-stone-400 block my-1" href="#">Contact</a>
+            <a class="hover:bg-stone-400 block my-1" href="#">Developer</a>
+            <button class="my-2 text-white hover:bg-stone-400 bg-stone-600	px-4 py-2 rounded"
+                type="submit">Sign-in</button>
+        </div>
     </header>
+
     <script src="/index.js"></script>
 </body>
 
